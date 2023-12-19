@@ -10,21 +10,57 @@ body{
     margin: 20% auto;
 }
 .RatingState, .ThankYou{
-    background-color: hsl(213, 19%, 18%);
-    padding: 2rem;
-    margin: 2rem;
+    background-color: #1F2630;
+    padding: 1.5rem;
+    margin:auto auto;
     border-radius: 1rem;
+    width: 18.5rem
 }
 .star{
-    background-color: hsl(213, 19%, 20%);
+    background-color: hsl(213, 19%, 18%);
     width: .9rem;
     height: .9rem;
     padding: .75rem;
     border-radius: 50%;
 }
-
-
-
+h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem;
+    margin-left: 0;
+}
+p{
+    width: 19rem;
+    line-height: 1.5rem;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+}
+.RatingState_div{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+.point{
+    width: 2.75rem;
+    height: 2.75rem;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    border: none;
+}
+.RatingState_submit{
+    width: 100%;
+    height: 2.75rem;
+    border-radius: 5rem;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: .9rem;
+    font-weight: 500;
+   padding-top: .5rem;
+}
 .ThankYou{
     visibility: hidden;
     position: absolute;
