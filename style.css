@@ -11,6 +11,10 @@ body{
     width: 375px;
     margin: 20% auto;
 }
+
+/********************* Conteiners styles ****************************/
+
+
 .container{
     display: grid;
     grid-template-columns: 375px 375px;
@@ -127,4 +131,4 @@ p{
 
 
 .attribution { font-size: 11px; text-align: center;margin-top: 5rem; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); }

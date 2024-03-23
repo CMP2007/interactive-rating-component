@@ -1,11 +1,23 @@
-var submit = document.querySelector(".RatingState_submit");
-var points = Array.from(document.querySelectorAll(".point"));
-var ratingState = document.querySelector(".RatingState");
-var score = document.querySelector(".score");
-var check = [];
-let validated;
-var select;
+var submit = document.querySelector(".RatingState_submit"); //submit button 
+var points = Array.from(document.querySelectorAll(".point")); // punctuation elements
+var ratingState = document.querySelector(".RatingState"); //score container
+var score = document.querySelector(".score"); //score span
 
+let check = []; //Selected items
+let validated; //validation
+let select;//selected score
+
+
+
+function selectedCheck(point) {
+    console.log(select);
+    point.classList.remove(`point_hover`);
+    point.setAttribute("class","point_Selected point");
+    point.setAttribute("check","true");
+    check.push(point)
+    validated = true;
+    deleteCheck()   
+}
 
 function deleteCheck(){
     if (check.length >= 2) {
@@ -20,15 +32,9 @@ function deleteCheck(){
     }
 }
 
-function selectedCheck(point) {
-    console.log(select);
-    point.classList.remove(`point_hover`);
-    point.setAttribute("class","point_Selected point");
-    point.setAttribute("check","true");
-    check.push(point)
-    validated = true;
-    deleteCheck()   
-}
+
+
+
 
 points.forEach(function (element) {
     element.addEventListener("mousedown", ()=>{
@@ -40,6 +46,8 @@ console.log(validated);
 
     })
 })
+
+
 
 
 submit.addEventListener("mousedown",()=>{
