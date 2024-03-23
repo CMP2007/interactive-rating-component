@@ -15,46 +15,47 @@
   <title>Interactive rating component</title>
 </head>
 <body>
+    <div class="container">
+            <!-- Rating state start -->
+        <div class="RatingState">
+            <img src="./images/icon-star.svg" alt="" class="star">
 
-    <!-- Rating state start -->
-    <div class="RatingState">
-        <img src="./images/icon-star.svg" alt="" class="star">
+            <h2 class="RatingState_h3">How did we do?</h2>
+            <p class="RatingState_p">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
-        <h2 class="RatingState_h3">How did we do?</h2>
-        <p class="RatingState_p">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div class="RatingState_div">
+                <button id="1" class="point point_hover" check="false">1</button>
+                <button id="2" class="point point_hover" check="false">2</button>
+                <button id="3" class="point point_hover" check="false">3</button>
+                <button id="4" class="point point_hover" check="false">4</button>
+                <button id="5" class="point point_hover" check="false">5</button>
+            </div>
 
-        <div class="RatingState_div">
-            <button id="1" class="point point_hover" check="false">1</button>
-            <button id="2" class="point point_hover" check="false">2</button>
-            <button id="3" class="point point_hover" check="false">3</button>
-            <button id="4" class="point point_hover" check="false">4</button>
-            <button id="5" class="point point_hover" check="false">5</button>
+            <button  class="RatingState_submit">SUBMIT</button>
+        </div>
+    
+    <!-- Rating state end -->
+
+
+    <!-- Thank you state start -->
+
+        <div class="ThankYou">
+            <img src="./images/illustration-thank-you.svg" alt="" class="ThankYou_img">
+            <span class="ThankYou_span">You selected <span class="score"></span> out of 5</span>
+
+            <h2 class="ThankYou_h3">Thank you!</h2>
+
+            <p class="ThankYou_p">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
         </div>
 
-        <button class="RatingState_submit">SUBMIT</button>
+    <!-- Thank you state end -->
+
     </div>
   
-  <!-- Rating state end -->
-
-
-  <!-- Thank you state start -->
-
-  <div class="ThankYou hidden">
-    <img src="./images/illustration-thank-you.svg" alt="" class="ThankYou_img">
-    <span class="ThankYou_span">You selected <!-- Add --> out of 5</span>
-
-    <h2 class="ThankYou_h3">Thank you!</h2>
-
-    <p class="ThankYou_p">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
-  </div>
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+    </div>
   <script src="script.js"></script>
 </body>
 </html>
