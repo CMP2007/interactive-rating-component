@@ -8,7 +8,7 @@ let validated; //validation
 let select;//selected score
 
 
-
+ // This function changes the styles and saves the selected element in the check array.
 function selectedCheck(point) {
     console.log(select);
     point.classList.remove(`point_hover`);
@@ -19,6 +19,8 @@ function selectedCheck(point) {
     deleteCheck()   
 }
 
+
+//This function allows you to uncheck an element, for which it validates the elements stored in the check array and if necessary, modifies the classes of the first element to deactivate it, it also marks it as false in case there is no element currently selected.
 function deleteCheck(){
     if (check.length >= 2) {
         check[0].classList.remove(`point_Selected`);
@@ -33,9 +35,7 @@ function deleteCheck(){
 }
 
 
-
-
-
+//score elements event trigger
 points.forEach(function (element) {
     element.addEventListener("mousedown", ()=>{
         let point = event.target;
@@ -48,13 +48,11 @@ console.log(validated);
 })
 
 
-
-
+//send button event trigger, validates if any element exists by selecting and sends the data to the "thank you" card
 submit.addEventListener("mousedown",()=>{
     if (validated === true ) {
         ratingState.setAttribute("class","animation");
         score.textContent = select
-        console.log(select);
     }else{
         alert("Por Favor Calificanos")
     }
