@@ -19,7 +19,7 @@ This project is a **historical practice** focused on the first steps of DOM mani
 ## 📋 Technical Milestones of this Stage
 In this specific phase of my training, I successfully achieved:
 
-* **State Management:** Implementation of a selection system that ensures only one rating is active at a time, using a "check and delete" logic via JavaScript arrays.
+* **Experimental State Logic:** Implementation of a unique selection system using **array queues (`push` and `shift`)** to ensure only one rating is active. This reflects my early exploration of data structures applied to UI behavior.
 * **DOM Manipulation:** Dynamic synchronization between the rating card and the "Thank You" state, injecting the user's score into the final view.
 * **BEM-like Architecture:** Early adoption of organized CSS naming conventions (e.g., `RatingState_h3`, `ThankYou_p`) to maintain a scalable and readable style sheet.
 * **Interactive UX:** Development of hover states and active button feedback to guide the user through the rating process, including basic validation to prevent empty submissions.
