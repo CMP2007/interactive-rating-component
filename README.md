@@ -1,59 +1,35 @@
-# Frontend Mentor - Interactive rating component solution
+# Interactive Rating Component: UI & Logic Exercise
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
+This project is a **historical practice** focused on the first steps of DOM manipulation and state management with Vanilla JavaScript. I preserve it in my portfolio as evidence of my transition from static layouts to interactive user interfaces.
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+## 🚀 Demo
+[SEE DEMO HERE](https://cmp2007.github.io/interactive-rating-component/)
 
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
-
-### Screenshot
+### Screenshots
 
 ![](./images/Screenshot_1.jpg)        ![](./images/Screenshot_2.jpg)
 
+---
+
+## 📋 Evolution & Context Note
+> ⚠️ **Note on my trajectory:** This repository reflects my early logic for handling user events. While the current implementation uses manual class toggling and `mousedown` events, it represents the foundation of my understanding of the **Model-View-Controller** flow before migrating to modern frameworks like React. I keep the code in its original state to document my growth in logical problem-solving.
+
+## 📋 Technical Milestones of this Stage
+In this specific phase of my training, I successfully achieved:
+
+* **State Management:** Implementation of a selection system that ensures only one rating is active at a time, using a "check and delete" logic via JavaScript arrays.
+* **DOM Manipulation:** Dynamic synchronization between the rating card and the "Thank You" state, injecting the user's score into the final view.
+* **BEM-like Architecture:** Early adoption of organized CSS naming conventions (e.g., `RatingState_h3`, `ThankYou_p`) to maintain a scalable and readable style sheet.
+* **Interactive UX:** Development of hover states and active button feedback to guide the user through the rating process, including basic validation to prevent empty submissions.
 
 
-### Links
 
-- Solution URL: [Add solution URL here](https://github.com/CMP2007/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://cmp2007.github.io/interactive-rating-component/)
+## 🛠️ Technologies (at the time)
+* **HTML5:** Semantic structure for accessible components.
+* **CSS3:** Flexbox and Grid for centering and layout transitions.
+* **Vanilla JavaScript:** Event listeners, array methods (`shift`, `push`), and class manipulation.
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-
-### Continued development
-
-At this time I want to continue doing challenges and practices based on HTML, CSS and JS to develop a good foundation before continuing with my learning path
-
-## Author
-
-
-### Carlos Miguel Puche Moreno
-
-- Frontend Mentor - [CMP2007](https://www.frontendmentor.io/profile/CMP2007)
+---
+**Coded by [Carlos Miguel Puche](https://github.com/CMP2007)**
