@@ -7,6 +7,9 @@ This project is a **historical practice** focused on the first steps of DOM mani
 ## 🚀 Demo
 [SEE DEMO HERE](https://cmp2007.github.io/interactive-rating-component/)
 
+### 🏆 Challenge Context
+This project was developed as a solution to the [Interactive Rating Component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-sizNlztQeT).
+
 ### Screenshots
 
 ![](./images/Screenshot_1.jpg)        ![](./images/Screenshot_2.jpg)
