@@ -1,5 +1,8 @@
 # Interactive Rating Component: UI & Logic Exercise
 
+> [!Note]
+>> This repository contains a legacy project from my early days as a programmer
+
 This project is a **historical practice** focused on the first steps of DOM manipulation and state management with Vanilla JavaScript. I preserve it in my portfolio as evidence of my transition from static layouts to interactive user interfaces.
 
 ---
